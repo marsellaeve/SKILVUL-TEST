@@ -1,0 +1,87 @@
+.wrapper {
+  padding: 5%;
+}
+.mb-5 {
+  margin-bottom: 5vh;
+}
+.mb-10 {
+  margin-bottom: 10vh;
+}
+.textbox {
+  width: 40%;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 7vh;
+}
+.borderbox {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 25vw;
+  height: 20vw;
+  display: flex;
+  align-items: center;
+}
+.gifSize {
+  width: 100%;
+  max-width: 25vw;
+  max-height: 20vw;
+}
+@media only screen and (max-width: 820px) {
+  .container {
+    row-gap: 5vh;
+  }
+  .spacetitle {
+    margin-bottom: 10vh;
+  }
+  .borderbox {
+    width: 40vw;
+    height: 35vw;
+  }
+  .gifSize {
+    width: 100%;
+    max-width: 40vw;
+    max-height: 35vw;
+  }
+  .mb-5 {
+    margin-bottom: 4vh;
+  }
+  .mb-10 {
+    margin-bottom: 8vh;
+  }
+  .textbox {
+    width: 50%;
+    padding: 8px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    row-gap: 3vh;
+  }
+  .spacetitle {
+    margin-bottom: 8vh;
+  }
+  .gifSize {
+    width: 100%;
+    max-width: 90vw;
+    max-height: 80vw;
+  }
+  .borderbox {
+    width: 90vw;
+    height: 80vw;
+  }
+  .mb-5 {
+    margin-bottom: 3vh;
+  }
+  .mb-10 {
+    margin-bottom: 5vh;
+  }
+  .textbox {
+    width: 70%;
+    padding: 3px;
+  }
+}
